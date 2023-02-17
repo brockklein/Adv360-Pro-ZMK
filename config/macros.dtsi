@@ -2,13 +2,13 @@ macro_dsktp_left: macro_dsktp_left{
 compatible = "zmk,behavior-macro";
 label = "macro_dsktp_left";
 #binding-cells = <0>;
-bindings = <&kp LCTRL(LGUI(LEFT))>;
+bindings = <&kp LCTRL LGUI LEFT>;
 };
 macro_dsktp_right: macro_dsktp_right{
 compatible = "zmk,behavior-macro";
 label = "macro_dsktp_right";
 #binding-cells = <0>;
-bindings = <&kp LCTRL(LGUI(RIGHT))>;
+bindings = <&kp LCTRL LGUI RIGHT>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
